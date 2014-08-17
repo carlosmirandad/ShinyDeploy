@@ -8,3 +8,4 @@ This app presents International Trade information provided by the World Trade Or
 2. Select commodities (check/uncheck box)   
 3. Add or remove countries (typing in the box)   
 4. A comparison report of Export & Import values by country will appear in the right pane  
+[Click here for more documentation](http://rpubs.com/carlosmirandad/25035)

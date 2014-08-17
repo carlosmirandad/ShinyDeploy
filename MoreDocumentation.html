@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Application Description</title>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h2>Application Description</h2>
+
+<p>This app presents International Trade information from the World Trade Organization (WTO). You can see the total import and export amounts of every country in the world, classified by commonity type, between years 2006 and 2013.   </p>
+
+<h2>How to Use the Application</h2>
+
+<p>This is a very user friendly application. You&#39;ll be able to learn it quickly!  </p>
+
+<p><strong>Step 1: Select the year that you want to see</strong> by using the slider. By default the app will be set to display the trade amounts for the most recent year available (e.g. 2013), but you can change it to any year between 2006 and 2013.  </p>
+
+<p><strong>Step 2: Select the commodity types of interest</strong> by checking or unchecking the respective boxes. By default all commodity types are displayed. Your options are:  </p>
+
+<ul>
+<li>Agricultural products<br/></li>
+<li>Fuel and mining products<br/></li>
+<li>Manufactures<br/></li>
+</ul>
+
+<p><strong>Step 3: Define the countries or territories that you want to compare.</strong> Add countries by simply typing their name in the respective box. When you start typing, a list will appear that will help you find the country you wanted. Just click on the name and it will be added to the list.  If you want to remove a country, just click on it and press the DELETE key.   </p>
+
+<p><strong>That&#39;s it! You can see the results now.</strong> You dont need to do anything else. The application automatically refreshes the results when you change any input. The comparison reports of Export &amp; Import values by country will appear in the right pane.    </p>
+
+<h2>Links</h2>
+
+<ul>
+<li>See our <a href="http://rpubs.com/carlosmirandad/25027">slidify presentation</a><br/></li>
+<li>Back to the shinny app <a href="http://carlosmirandad.shinyapps.io/DEPLOY/">WTO Statistics</a><br/></li>
+<li>Github <a href="https://github.com/carlosmirandad/ShinyDeploy">repository</a> with the source code</li>
+</ul>
+
+<h2>Source</h2>
+
+<p>The content presented in this app was downloaded from:</p>
+
+<ul>
+<li>WTO Statistics Database <a href="http://stat.wto.org">stat.wto.org</a><br/></li>
+<li>Section: Time Series on International Trade</li>
+<li>Subject: Merchandise by Trade Commodity</li>
+<li>Reporter: All </li>
+<li>Year: 2006 - 2013</li>
+<li>Minor edits were made toteh files (for brevity and application efficiency purposes)</li>
+</ul>
+
+</body>
+
+</html>
